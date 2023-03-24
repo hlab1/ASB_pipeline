@@ -181,3 +181,7 @@ source_dir=<.../BaalChIP-master/>
 ```
 sbatch $WD/scripts/run_Baalchip.s <input file (.csv)> <output file (.csv)> $source_dir
 ```
+
+Final report as shown below.
+
+![image](https://user-images.githubusercontent.com/108205199/227653776-5323378a-b7cd-4aee-8996-705cb41c6af5.png)
