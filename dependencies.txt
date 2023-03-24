@@ -1,0 +1,18 @@
+This pipline requires:
+
+R (r/gcc/4.2.0)
+library(dplyr)
+library(tidyr)
+library(tidyverse)
+library(BaalChIP)
+library(parallel)
+library(doParallel)
+library(dplyr)
+library(mcmcr)
+library(coda)
+
+bedtools/intel/2.29.2
+
+samtools/intel/1.14
+
+To use Baalchip, clone Baalchip from github: https://github.com/InesdeSantiago/BaalChIP
