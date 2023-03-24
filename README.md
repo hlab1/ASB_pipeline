@@ -89,4 +89,10 @@ sh $WD/scripts/overlap_vari_bam.sh <filtered het file> <bam folder> <selected ba
 The final output contains 17 columns: bam read location and ID (Column 1-4), read MAPQ (column 5), read sequence (column 6), read mismatch tag (column 7), het information (column 8-16), overlap length (column 17).
 
 ![image](https://user-images.githubusercontent.com/108205199/227624619-6b44737b-c4fc-49f7-9fa0-2b0eab42203b.png)
+<br>
 
+### Step 2: Assign the reads to reference or alternative genome.
+**Usage:** 
+```
+run_assign_reads.sh
+```
