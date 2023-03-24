@@ -2,7 +2,7 @@
 This package is used to discover genetic variatio related Allele Specific Binding events.
 
 ## I. Software and package dependencies
-See dependencies.txt.
+See ```dependencies.txt```.
 
 ## II. Data preperation
 This pipeline requires 4 types of data, make sure all the bam and bed files' chromosome names are in the lower case i.e. "chr1":
@@ -172,7 +172,7 @@ Results will be at ```results/count_with_RAF/```. Example as below.
 sh run_Baalchip.sh
 ```
 
-- 5.1. Specify the path to Baalchip (see how to get the package in dependencies.txt):
+- 5.1. Specify the path to Baalchip (see how to get the package in ```dependencies.txt```):
 ```
 source_dir=<.../BaalChIP-master/>
 ```
