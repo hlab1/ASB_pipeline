@@ -15,7 +15,7 @@ Format details at https://schneebergerlab.github.io/syri/fileformat.html
 - 4. seq (dap-seq) peak files (.narrowPeak).
 
 ## III. Workflow
-**Step 1:** Filter for dap-seq reads overlapped with variations that are in peaks. Filter for all library reads overlapped with variations.
+### Step 1: Filter for reads overlapped with variations that are in peaks (for library only overlapped with variations).
 
 **Usage:**
 ```
