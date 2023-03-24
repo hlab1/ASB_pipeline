@@ -140,6 +140,7 @@ in ```run_generate_RAF.sh```, specify the location to this sheet.
 sbatch $WD/scripts/run_generate_RAF.s <sample sheet file> $WD/results/RAF/
 ```
 Results will be at ```results/RAF/```. Example as below.
+
 ![image](https://user-images.githubusercontent.com/108205199/227652381-d92208b8-47cf-4816-883b-44b80ec12284.png)
 
 
@@ -160,6 +161,7 @@ sbatch $WD/scripts/run_generate_count_with_RAF.s <sample sheet file> $WD/results
 ```
 
 Results will be at ```results/count_with_RAF/```. Example as below.
+
 ![image](https://user-images.githubusercontent.com/108205199/227652858-65795c41-2ae2-4368-a99b-800b10cc8f37.png)
 
 
