@@ -22,6 +22,7 @@ Format details at https://schneebergerlab.github.io/syri/fileformat.html
 sh overlap_all.sh
 ```
 
+
 - 1.1: Convert syri to het, write a file to specify the variation types to be considered. (resources/syri/vari.txt)
 
 ![image](https://user-images.githubusercontent.com/108205199/227620280-e3d691ff-64b3-472b-a647-87951e20e312.png)
@@ -45,6 +46,7 @@ A het file (in bed convention) contains 9 columns: Reference location and sequen
 
 ![image](https://user-images.githubusercontent.com/108205199/227621807-14cbe82d-62ad-4cda-9ff1-80bd661874f3.png)
 
+<br>
 
 - 1.2: Overlap het and narrowPeak, filter for variations in peaks.
 
@@ -64,6 +66,9 @@ The second command takes 6 arguments:
 sh $WD/scripts/overlap_het_narrowPeak.sh <Reference het file> <Reference narrowPeak folder> <Reference output folder> \
 <Alternative het file> <Alternative narrowPeak folder> <Alternative output folder>
 ```
+<br>
+
+
 - 1.3: overlap filtered het with bam.
 
 ```
