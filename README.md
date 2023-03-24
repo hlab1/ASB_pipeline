@@ -41,12 +41,12 @@ The first command filters the syri.out file to het file. It takes 4 arguments:
 
 ```sh $WD/scripts/syri_to_het.sh $WD/scripts/filter_het.r <syri.out file> <variation type file> <reference genome het> <alternative genome het>```
 
-A het file (in bed convention) contains 9 columns: Reference location and sequence(column 1-4), alternative location and sequence (column 5-8), ID (column 9).
+A het file (in bed convention) contains 9 columns: Reference location and sequence (column 1-4), alternative location and sequence (column 5-8), ID (column 9).
 
 ![image](https://user-images.githubusercontent.com/108205199/227621807-14cbe82d-62ad-4cda-9ff1-80bd661874f3.png)
 
 
-- 1.2: Overlap het and narrowPeak.
+- 1.2: Overlap het and narrowPeak, filter for variations in peaks.
 
 ```
 echo "overlap het and narrowPeak"
@@ -64,3 +64,24 @@ The second command takes 6 arguments:
 sh $WD/scripts/overlap_het_narrowPeak.sh <Reference het file> <Reference narrowPeak folder> <Reference output folder> \
 <Alternative het file> <Alternative narrowPeak folder> <Alternative output folder>
 ```
+- 1.3: overlap filtered het with bam.
+
+```
+echo "overlap vari and bam"
+sh $WD/scripts/overlap_vari_bam.sh \
+	$WD/resources/bed_dap/Col_vari_bed/ColSPL9_F1a-B.vari.bed \
+	$WD/resources/bam_dap/Col_bam/ \
+	"ColSPL9_F1a-B*.bam" \
+	$WD/resources/bam_dap/Col_bam_bed/ \
+	$WD/resources/bam_dap/Col_bam_with_vari/ &
+```
+The third command takes 5 arguments:
+
+```
+sh $WD/scripts/overlap_vari_bam.sh <filtered het file> <bam folder> <selected bam files> <temp output folder> <final output folder>
+```
+
+The final output contains 17 columns: bam read location and ID (Column 1-4), read MAPQ (column 5), read sequence (column 6), read mismatch tag (column 7), het information (column 8-16), overlap length (column 17).
+
+![image](https://user-images.githubusercontent.com/108205199/227624619-6b44737b-c4fc-49f7-9fa0-2b0eab42203b.png)
+
