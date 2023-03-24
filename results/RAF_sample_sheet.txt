@@ -1,0 +1,3 @@
+group	files
+F1a	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/daplib_F1a-input_x1.with_vari.bed.merged.csv
+F1a	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/daplib_F1a-input_x2.with_vari.bed.merged.csv

@@ -1,0 +1,11 @@
+group	files	RAF_files
+ColSPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/ColSPL9_F1a-B_i.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+ColSPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/ColSPL9_F1a-B_v1.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+ColSPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/ColSPL9_F1a-B_v2.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+ColSPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/ColSPL9_F1a-B_y1.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+ColSPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/ColSPL9_F1a-B_y2.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+C24SPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/C24SPL9_F1a-B_i.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+C24SPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/C24SPL9_F1a-B_v1.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+C24SPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/C24SPL9_F1a-B_v2.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+C24SPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/C24SPL9_F1a-B_y1.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv
+C24SPL9_F1a_F1aRAF	/scratch/yz8868/SPL_F1_git/results/merged_assigned_reads/C24SPL9_F1a-B_y2.with_vari.bed.merged.csv	/scratch/yz8868/SPL_F1_git/results/RAF/F1a_RAF.csv

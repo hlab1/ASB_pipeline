@@ -1,0 +1,7 @@
+SNP
+INS
+DEL
+CPG
+CPL
+HDR
+TDM
