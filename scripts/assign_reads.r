@@ -59,9 +59,9 @@ for (i in 1:nrow(df_input_files)) {
 	## If a read has higher mapping quality for either of the haplotypes it is assigned to that haplotype. If the mapping quality is the same, we look at the number of mismatches and assigned the read to the haplotype for which the read is aligned with least number of mismatches. If both metrics are equivalent, we deem the read as commonly mapping to both haplotypes.
 
 	df_merge = df_merge %>%
-	 	dplyr::group_by(ID, QNAME) %>%
-		slice_max(MAPQ, n = 1) %>%
-		slice_min(mismatch, n = 1) %>%
+	 	dplyr::group_by(ID, QNAME) %>%	## Group by variation ID and read ID.
+		slice_max(MAPQ, n = 1) %>%	## Select the accession where the read has higher mapping quality.
+		slice_min(mismatch, n = 1) %>%	## If the qualities are the same in both accession, select the accession where the read maps with fewer mismatches.
 		arrange(.by_group=TRUE)
 
 	write.csv(df_merge, merged_file_out_path, row.names = FALSE, quote = FALSE)
