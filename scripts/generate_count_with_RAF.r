@@ -18,8 +18,8 @@ for (temp_group in lib_group) {
 		df_merge = read.csv(file)
 
 		df_count = df_merge %>%
-			count(ID, ref) %>%
-			pivot_wider(names_from = ref, values_from = n, values_fill = 0) %>%
+			count(ID, ref) %>%	# Group and count how many reads are mapped to either accession for each peak.
+			pivot_wider(names_from = ref, values_from = n, values_fill = 0) %>%	# Reshape to dataframe.
 			rename(REF.counts = hap1, ALT.counts = hap2)
 
 		df_count_list[[file]] = df_count
