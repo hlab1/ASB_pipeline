@@ -5,10 +5,6 @@
 #SBATCH --time=16:00:00
 #SBATCH --mem=64GB
 #SBATCH --job-name=baalchip
-#SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=yz8868@nyu.edu
-#SBATCH --output=slurm_baalchip_%j.out
-#SBATCH --error=slurm_baalchip_%j.err
 
 
 module load r/gcc/4.2.0
